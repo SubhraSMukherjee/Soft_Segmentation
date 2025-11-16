@@ -3,11 +3,20 @@
 
 This project takes MacroEconomic Data (
 [[Data Source]](https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data)
-) from 167 Countries and tries to group them together based on how similar or dissimilar they are based on the Macro Indicators using [Kohonen Maps (Self Organizing Maps)](https://www.geeksforgeeks.org/python/self-organising-maps-kohonen-maps/)
+) from 167 Countries and tries to group them together based on how similar or dissimilar they are based on the Macro Indicators using Soft Segmentation Techniques like [Kohonen Maps (Self Organizing Maps)](https://www.geeksforgeeks.org/python/self-organising-maps-kohonen-maps/) and [Fuzzy C means](https://en.wikipedia.org/wiki/Fuzzy_clustering)
 
 
 Kohonen Maps are an Neural Network based unsupervised algorithm that preserves the topological structure of the data. Loosely speaking, it means that we can **'see'** the difference between the types of data elements with the most similar ones clubbed together and the different ones further apart
 
+
+Fuzzy clustering means we can see the degree to which countries belongs to groups. Some countries' indicators show that they are somewhat in between hard clusters
+
+___
+
+### >Final countries clustering/segmentations
+
+1. Blue Countries are the developed nations with high GDP per capita and 
+2. Far-apart nodes usually represent dissimilar data — but not always strictly linearly
 ___
 
 ### >Translating the Final Map
@@ -19,3 +28,4 @@ ___
 
 
 ![Page_1](https://github.com/SubhraSMukherjee/Soft_Segmentation/blob/main/screenshots/image.png)
+
