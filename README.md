@@ -13,13 +13,16 @@ Fuzzy clustering means we can see the degree to which countries belongs to group
 
 ___
 
-### >Final countries clustering/segmentations
+### >Fuzzy C Means: Final countries clustering/segmentations 
 
-1. Blue Countries are the developed nations with high GDP per capita and 
-2. Far-apart nodes usually represent dissimilar data — but not always strictly linearly
+1. Green Countries are the developed nations with high GDP per capita and income, Red developing and Blue underdeveloped
+2. Countries like Bahrain, Saudi can be seen to be at the juncture of the clusters
+
+
+![Page_1](https://github.com/SubhraSMukherjee/Soft_Segmentation/blob/main/screenshots/countries.png)
 ___
 
-### >Translating the Final Map
+### >Kohonen Map : Translating the Final Map
 
 1. Nearby nodes on the map tend to represent similar data (low dissimilarity).
 2. Far-apart nodes usually represent dissimilar data — but not always strictly linearly
